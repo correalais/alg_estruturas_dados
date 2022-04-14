@@ -8,3 +8,9 @@ adicionarQnt = int(input('Insira a quantidade de produto para adicionar: '))
 
 
 produto = Produto(adicionaCod, adicionaProduto, adicionaPreco, adicionarQnt)
+
+adicionaCategoria = input(f'Insira a categoria que o produto {adicionaProduto} se encaixa: ')
+
+produto.setCategoria(adicionaCategoria)
+
+produto.cadastrar()
