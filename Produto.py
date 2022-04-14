@@ -11,8 +11,9 @@ class Produto:
         self.cat = cat
 
     def cadastrar(self):
-        print('Código do produto: ', self.codigo)
+        print('\nCódigo do produto: ', self.codigo)
         print('Nome: ', self.nome)
         print('Preço: ', self.preco)
         print('Quantidade: ', self.qnt)
         print('Categoria: ', self.cat)
+        print('\nProduto Cadastrado!')
